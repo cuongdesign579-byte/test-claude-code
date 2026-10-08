@@ -43,9 +43,9 @@ export const Badge: React.FC = () => {
       >
         ✨
       </div>
-      <Twinkle x={-4} y={2} size={7} start={T.badge + 6} />
-      <Twinkle x={19} y={-3} size={5} start={T.badge + 11} />
-      <Twinkle x={-2} y={18} size={4} start={T.badge + 15} />
+      <Twinkle x={-4} y={2} size={7} start={T.badge + T.twinkles[0]} />
+      <Twinkle x={19} y={-3} size={5} start={T.badge + T.twinkles[1]} />
+      <Twinkle x={-2} y={18} size={4} start={T.badge + T.twinkles[2]} />
       <Img
         src={staticFile('figma/badge.svg')}
         style={{

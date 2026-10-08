@@ -5,6 +5,7 @@ export const DURATION = 300;
 export const T = {
   bgIn: 0,
   badge: 6,
+  twinkles: [6, 11, 15], // offsets from `badge`
   headline: 18,
   headlineStagger: 5,
   headlineShine: 72,

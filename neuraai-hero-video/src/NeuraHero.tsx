@@ -11,6 +11,7 @@ import {Cursor} from './scenes/Cursor';
 import {Headline} from './scenes/Headline';
 import {Logos} from './scenes/Logos';
 import {Subtitle} from './scenes/Subtitle';
+import {Soundtrack} from './Soundtrack';
 
 // The 1200×644 Figma frame is laid out in Figma units and scaled to the 1920×1080 canvas.
 const BASE_SCALE = 1.6;
@@ -41,6 +42,7 @@ export const NeuraHero: React.FC = () => {
 
   return (
     <AbsoluteFill>
+      <Soundtrack />
       <Background camera={camera} />
       <AbsoluteFill style={{perspective: 1800, perspectiveOrigin: '50% 40%'}}>
         <AbsoluteFill style={{transform: `rotateX(${tilt}deg)`, transformOrigin: '50% 50%'}}>

@@ -8,7 +8,8 @@
     "render": "remotion render NeuraHero out/neuraai-hero.mp4",
     "still": "remotion still NeuraHero out/still.png --frame=299",
     "typecheck": "tsc --noEmit",
-    "split-headline": "node scripts/split-headline.mjs"
+    "split-headline": "node scripts/split-headline.mjs",
+    "generate-audio": "node scripts/generate-audio.mjs"
   },
   "dependencies": {
     "@fontsource/onest": "^5.3.1",
