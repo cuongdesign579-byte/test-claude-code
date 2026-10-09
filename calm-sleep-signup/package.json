@@ -1,0 +1,14 @@
+{
+  "name": "calm-sleep-signup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixel-matched HTML/CSS build of the Calm Sleep \"Your plan is ready\" sign-up screen",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "compare": "node tools/compare.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  }
+}
